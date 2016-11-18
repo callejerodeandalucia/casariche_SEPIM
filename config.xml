@@ -13,7 +13,6 @@
 		Junta de Andalucía
 	</author>
 	<content src="index.html" />
-	<access origin="*" />
 	<icon src="resources/icon.png" /><!--Adaptar a resoluciones?-->
 	
 	<preference name="SplashScreen" value="screen" />
@@ -26,7 +25,6 @@
 	<access origin="tel:*" launch-external="yes"/>
 	<access origin="geo:*" launch-external="yes"/>
 	<access origin="mailto:*" launch-external="yes"/>
-	<access origin="market:*" launch-external="yes"/>
 
 <!-- SPLASH Android -->
 	<gap:splash src="resources/Android/screen.png" /> <!--DEFAULT-->
