@@ -23,7 +23,8 @@
 	<preference name="phonegap-version" value="cli-6.3.0" />
 
 <!-- PERMISOS -->	
-
+	<access origin="tel:*" launch-external="true" /> 
+	<allow-intent href="tel:*" />
 
 <!-- SPLASH Android -->
 	<gap:splash src="resources/Android/screen.png" /> <!--DEFAULT-->
