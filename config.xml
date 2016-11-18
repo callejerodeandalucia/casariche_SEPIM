@@ -21,11 +21,13 @@
 	<preference name="fullscreen" value="true" />
 	<preference name="phonegap-version" value="cli-5.2.0" />
 
-<!-- PERMISOS -->	
-	<access origin="tel:*" launch-external="yes"/>
-	<access origin="geo:*" launch-external="yes"/>
-	<access origin="mailto:*" launch-external="yes"/>
-	<access origin="http://*" launch-external="yes" />
+<!-- PERMISOS -->
+	<access origin="*" />
+	<!-- Allow tel: links to open the dialer -->
+	<allow-intent href="tel:*" />
+	<allow-intent href="mailto:*" />
+	<!-- Allow geo: links to open maps -->
+	<allow-intent href="geo:*" />
 
 <!-- SPLASH Android -->
 	<gap:splash src="resources/Android/screen.png" /> <!--DEFAULT-->
