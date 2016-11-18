@@ -20,11 +20,13 @@
 	<preference name="SplashScreenDelay" value="10000" />
 	<preference name="AutoHideSplashScreen" value="false" />
 	<preference name="fullscreen" value="true" />
-	<preference name="phonegap-version" value="cli-6.3.0" />
+	<preference name="phonegap-version" value="cli-5.2.0" />
 
 <!-- PERMISOS -->	
-	<access origin="tel:*" launch-external="true" /> 
-	<allow-intent href="tel:*" />
+	<access origin="tel:*" launch-external="yes"/>
+	<access origin="geo:*" launch-external="yes"/>
+	<access origin="mailto:*" launch-external="yes"/>
+	<access origin="market:*" launch-external="yes"/>
 
 <!-- SPLASH Android -->
 	<gap:splash src="resources/Android/screen.png" /> <!--DEFAULT-->
