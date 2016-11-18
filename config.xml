@@ -25,6 +25,7 @@
 	<access origin="tel:*" launch-external="yes"/>
 	<access origin="geo:*" launch-external="yes"/>
 	<access origin="mailto:*" launch-external="yes"/>
+	<access origin="http://*" launch-external="yes" />
 
 <!-- SPLASH Android -->
 	<gap:splash src="resources/Android/screen.png" /> <!--DEFAULT-->
