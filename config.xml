@@ -23,11 +23,6 @@
 
 <!-- PERMISOS -->
 	<access origin="*"/>
-	<!-- Allow tel: links to open the dialer -->
-	<allow-intent href="tel:*" />
-	<allow-intent href="mailto:*" />
-	<!-- Allow geo: links to open maps -->
-	<allow-intent href="geo:*" />
 
 <!-- SPLASH Android -->
 	<gap:splash src="resources/Android/screen.png" /> <!--DEFAULT-->
@@ -60,9 +55,8 @@
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" version="1.0.1" />
 	<gap:plugin name="cordova-plugin-splashscreen" source="npm" version="2.1.0" />
 	<gap:plugin name="cordova-plugin-statusbar" source="npm" version="1.0.1" />
-	<gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.3.0" />
-
-	<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" version="1.0.0" />
+		
 <!-- CONFIGS -->	
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
 	    <true/>
