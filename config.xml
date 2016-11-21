@@ -22,7 +22,7 @@
 	<preference name="phonegap-version" value="cli-6.3.0" />
 
 <!-- PERMISOS -->
-	<access origin="*" launch-external="yes"/>
+	<access origin="*"/>
 	<!-- Allow tel: links to open the dialer -->
 	<allow-intent href="tel:*" />
 	<allow-intent href="mailto:*" />
